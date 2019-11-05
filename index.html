@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="left-section">
+                <div class="input">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email">
+
+                </div>
+                <div class="btn-container">
+                    <button type="button" onClick="onAdd()">Add</button>
+                </div>
+            </div>
+            <div class="right-section">
+                <div class="search-container">
+                    <label for="search">Search</label>
+                    <input type="text" name="search" id="search">
+                    <button type="button">Go!</button>
+                </div>
+                <div class="toggle-container">
+                    <input type="checkbox" name="toggle" id="toggle" onclick="toggle(this)">
+                    <label for="toggle">Show only Enabled</label>
+                </div>
+                <div class="list-details">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>IsEnabled</th>
+                                <th>Email</th>
+                                <th>Delete</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

@@ -1,0 +1,16 @@
+.wrapper {
+    width: 100vw;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+.left-section {
+    width: 40%;
+}
+
+.right-section {
+    width: 60%;
+}
